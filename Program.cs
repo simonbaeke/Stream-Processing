@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-string fileName = "stream processing - input.txt";
+string fileName = "../../../stream processing - input.txt";
 string text = File.ReadAllText(fileName);
 
 int score = Processor.Process(Processor.VerwijderOnzin(text));
